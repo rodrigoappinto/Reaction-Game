@@ -2,11 +2,11 @@
 
 ![](public/Game_Example.gif)
 
-This project had the objective of learning React and Next.JS! 
+This project had the objective of learning React and Next.JS by creating a reaction game! 
 
 It is a simple game where the player has to click on the green button as fast as he can! 
 
-Hope you like it! 
+Hope you like it!
 
 -- Rodrigo 🐥
 
