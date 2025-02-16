@@ -2,9 +2,9 @@
 
 ![](public/Game_Example.gif)
 
-This project had the objective of learning React and Next.JS by creating a reaction game! 
+This project had the objective of creating a game using Javascript and React with Next.js! 
 
-It is a simple game where the player has to click on the green button as fast as he can! 
+It is a simple reaction game where the player has to click on the green button as fast as he can! 
 
 Hope you like it!
 
@@ -12,8 +12,13 @@ Hope you like it!
 
 ## Local Run
 
-```bash
+Before starting the app, please make sure to install all the dependencies:
+```
+cd reaction-game
+npm install
+```
+Once that's done, please run the following command to start the local server: 
+```
 npm run dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) within your browser and enjoy! :)
