@@ -1,15 +1,23 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Major_Mono_Display, Poppins } from "next/font/google";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["400", "600", "700"], // Load multiple weights if needed
+  variable: "--font-poppins", // Custom CSS variable (optional)
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+// Create the font loader
+const majorMono = Major_Mono_Display({
+  subsets: ["latin"], // You can specify subsets if needed
+  weight: "400", // Optionally specify the font weight you need
 });
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata = {
   title: "Create Next App",
@@ -20,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`flex justify-center items-center ${majorMono.className} antialiased w-screen h-screen bg-[#242327] text-[#e8e6e9]`}
       >
         {children}
       </body>
